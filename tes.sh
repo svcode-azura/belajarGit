@@ -13,6 +13,6 @@ fi
 printf "%s\n" "${nama}" >> "${file}"
 printf "\n%s\n" "-----Isi File ${file}-----"
 cat "${file}"
-
+printf "------------------"
 
 
