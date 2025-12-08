@@ -9,4 +9,4 @@ read commit_msg
 git commit -m "${commit_msg}"
 git push -u origin main
 
-printf "✅️ Perubahan telah diterima"
+printf "✅️ Perubahan telah diterima\n"
