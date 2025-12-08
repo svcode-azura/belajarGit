@@ -7,7 +7,7 @@ printf "Masukan nama: "
 read nama
 
 if [ ! -e "${file}" ]; then
-	touch "%s\n" "${file}"
+	touch "${file}"
 	
 fi
 printf "%s\n" "${nama}" >> "${file}"
