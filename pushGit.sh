@@ -1,16 +1,14 @@
 #!/bin/bash
 
-git pull
-commit_msg=""
-file=""
+BRANCH="main"
 
-printf "File yang ingin di push: "
-read file
+git pull --rebase
+commit_msg=""
+
 printf "Masukan pesan commit: "
 read commit_msg
 
-
-git add "${file}"
+git add .
 git commit -m "${commit_msg}"
 git push origin main
 
