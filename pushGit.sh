@@ -2,7 +2,7 @@
 
 BRANCH="main"
 
-git pull --rebase
+git pull
 commit_msg=""
 
 printf "Masukan pesan commit: "
