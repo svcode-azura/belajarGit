@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git pull
 commit_msg=""
 file=""
 
@@ -8,8 +9,9 @@ read file
 printf "Masukan pesan commit: "
 read commit_msg
 
+
 git add "${file}"
 git commit -m "${commit_msg}"
-git push -u origin main
+git push origin main
 
 printf "✅️ Perubahan telah diterima\n"
