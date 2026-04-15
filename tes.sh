@@ -1,4 +1,4 @@
 #!/bin/bash
 
-printf "✅️ Tes commit"
+echo "Hallo saya sedang belajar git"
 
